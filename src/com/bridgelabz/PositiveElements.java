@@ -23,7 +23,7 @@ public class PositiveElements {
         for(int i=0;i<arr.length;i++){
             sumOfAllElements = sumOfAllElements + arr[i];
         }
-
+        //output will be 
         System.out.println("Sum of positive integers in array is" + sumOfAllElements);
     }
 }
