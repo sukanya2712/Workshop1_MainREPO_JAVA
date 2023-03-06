@@ -9,6 +9,7 @@ public class PositiveElements {
         //Declaring the array with given values
         int arr[]={-1,-2,-4,5,8,9};
         int sumofPositiveEle=0;
+        int sumOfAllElements=0;
 
         //sum of positive elements in array as values greater than 0
         for(int i=0;i<arr.length;i++){
@@ -16,8 +17,13 @@ public class PositiveElements {
                 sumofPositiveEle = sumofPositiveEle + arr[i];
             }
         }
-
-
         System.out.println("Sum of positive integers in array is" + sumofPositiveEle);
+
+        //sum of all elements
+        for(int i=0;i<arr.length;i++){
+            sumOfAllElements = sumOfAllElements + arr[i];
+        }
+
+        System.out.println("Sum of positive integers in array is" + sumOfAllElements);
     }
 }
